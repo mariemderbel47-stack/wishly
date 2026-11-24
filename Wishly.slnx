@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Wishly.Api/Wishly.Api.csproj" />
+  <Project Path="Wishly.Application/Wishly.Application.csproj" />
+  <Project Path="Wishly.Domain/Wishly.Domain.csproj" />
+  <Project Path="Wishly.Infrastructure/Wishly.Infrastructure.csproj" />
+</Solution>

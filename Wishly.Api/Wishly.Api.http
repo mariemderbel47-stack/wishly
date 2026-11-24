@@ -1,0 +1,58 @@
+POST https://localhost:7004/api/users/register
+Content-Type: application/json
+
+{
+  "nom": "Test User",
+  "email": "test@example.com",
+  "motDePasse": "MonMotDePasse123"
+}
+
+###
+
+POST https://localhost:7004/api/users/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "motDePasse": "MonMotDePasse123"
+}
+###
+
+POST https://localhost:7004/api/wishlists
+Content-Type: application/json
+
+{
+  "userId": "795a2745-be50-4ed9-b571-83a438c0f387",
+  "nom": "Anniversaire de Sarah",
+  "occasion": "Anniversaire",
+  "themeVisuel": "Floral et pastel"
+}
+###
+
+GET https://localhost:7004/api/wishlists/e091eb177c084d19b3fef75217e4114c
+
+###
+
+POST https://localhost:7004/api/items
+Content-Type: application/json
+
+{
+  "wishlistId": "ea9e6c45-5b4a-4cc6-9b13-45ef0f6b5974",
+  "titre": "Robot de cuisine",
+  "lienExterne": "https://www.amazon.fr/exemple-robot-cuisine",
+  "prix": 149.99
+}
+###
+
+GET https://localhost:7004/api/items/wishlist/ea9e6c45-5b4a-4cc6-9b13-45ef0f6b5974
+
+###
+
+POST https://localhost:7004/api/reservations
+Content-Type: application/json
+
+{
+  "itemId": "97119a9e-40e4-4a66-bd38-66c648e7267f",
+  "nomReservant": "Ami Numéro 1",
+  "emailReservant": "ami1@example.com"
+}

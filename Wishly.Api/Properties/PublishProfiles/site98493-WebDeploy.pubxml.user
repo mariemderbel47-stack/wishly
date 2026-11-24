@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Ce fichier est utilisé par le processus de publication/package de votre projet web. Vous pouvez personnaliser le comportement de ce processus
+en modifiant ce fichier MSBuild. Pour en savoir plus à ce sujet, visitez https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzJipWfZSvk+96hgNJmKnbgAAAAACAAAAAAAQZgAAAAEAACAAAAAsBquFG5uWmqIFdlE5mtfR6575kkhMkbESNQ5lavYyLAAAAAAOgAAAAAIAACAAAADnOst95u11EgWO2kfA0UQYDSCVl+IzAfkmQB3nuSXztCAAAADoTovcb5bZRg6g+oGLXKkWfP/kPYlx3zW2WUplIV4RfEAAAADbOG+riskZC8HYSPjl3XsMJYyDghu2zRCA5RdhVAgaxwMUlQMqAdtmF3q+o6kv/LUmzkbMhbjk9oVP1V/Ulv8t</EncryptedPassword>
+    <History>True|2026-10-18T21:29:23.3179840Z||;True|2026-10-18T22:07:03.7794450+01:00||;True|2026-10-18T11:13:55.2044772+01:00||;True|2026-10-16T21:49:04.8350717+01:00||;True|2026-10-16T21:13:36.2091301+01:00||;True|2026-10-15T22:41:45.3441642+01:00||;True|2026-10-15T22:08:47.4240647+01:00||;True|2026-10-15T20:54:31.0920124+01:00||;True|2026-10-15T20:16:45.3350870+01:00||;True|2026-10-14T21:42:11.0306334+01:00||;True|2026-10-14T09:55:46.1592812+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="WishlyDb">
+      <Value>Server=localhost%3bPort=3306%3bDatabase=wishly%3bUser=root%3bPassword=mariem2004%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
